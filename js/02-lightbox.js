@@ -20,7 +20,7 @@ function createMarkur(items) {
 }
  // var lightbox = new SimpleLightbox('.gallery a', { /* options */ });
 var lightbox = new SimpleLightbox('.gallery a',
-    { captionsData: 'alt', captionPosition: 'bottom', animationSpeed: 250 });
+    { captionsData: 'alt', captionDelay: 250 });
 
 
 
